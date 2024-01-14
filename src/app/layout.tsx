@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { Title } from "@/components/layout/title";
 import { CommandMenu } from "@/components/layout/command-menu";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,7 +15,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col items-center justify-center gap-4 min-h-screen bg-black`}>
+      <body className={`${inter.className} flex flex-col items-center gap-4 min-h-screen px-4 pt-10 bg-black`}>
+        <Title />
         <CommandMenu />
 
         <main className="max-w-[648px] w-full">{children}</main>
