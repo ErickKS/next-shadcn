@@ -1,10 +1,8 @@
 interface NavConfig {
-  items: [
-    {
-      title: string;
-      href: string;
-    }
-  ];
+  items: {
+    title: string;
+    href: string;
+  }[];
 }
 
 export const navConfig: NavConfig = {
@@ -12,6 +10,10 @@ export const navConfig: NavConfig = {
     {
       title: "Button",
       href: "/component/button",
+    },
+    {
+      title: "Input",
+      href: "/component/input",
     },
   ],
 };
