@@ -19,5 +19,9 @@ export const navConfig: NavConfig = {
       title: "Checkbox",
       href: "/component/checkbox",
     },
+    {
+      title: "Select",
+      href: "/component/select",
+    },
   ],
 };
