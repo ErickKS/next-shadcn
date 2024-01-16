@@ -23,5 +23,9 @@ export const navConfig: NavConfig = {
       title: "Select",
       href: "/component/select",
     },
+    {
+      title: "Toast",
+      href: "/component/toast",
+    },
   ],
 };

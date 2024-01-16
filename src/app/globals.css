@@ -44,3 +44,16 @@
     @apply bg-background text-foreground;
   }
 }
+
+::-webkit-scrollbar,
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin-block: 0.3rem;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(240 3.7% 15.9%);
+  border-radius: 0.5rem;
+}
