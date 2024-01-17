@@ -12,6 +12,10 @@ export const navConfig: NavConfig = {
       href: "/component/button",
     },
     {
+      title: "Checkbox",
+      href: "/component/checkbox",
+    },
+    {
       title: "Dialog",
       href: "/component/dialog",
     },
@@ -20,8 +24,8 @@ export const navConfig: NavConfig = {
       href: "/component/input",
     },
     {
-      title: "Checkbox",
-      href: "/component/checkbox",
+      title: "Radio",
+      href: "/component/radio",
     },
     {
       title: "Select",
