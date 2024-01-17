@@ -12,6 +12,10 @@ export const navConfig: NavConfig = {
       href: "/component/button",
     },
     {
+      title: "Dialog",
+      href: "/component/dialog",
+    },
+    {
       title: "Input",
       href: "/component/input",
     },
