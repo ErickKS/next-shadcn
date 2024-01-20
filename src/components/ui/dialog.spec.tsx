@@ -89,10 +89,6 @@ describe("dialog component", () => {
       fireEvent.click(dialogTrigger);
 
       const dialogContent = getByRole("dialog");
-      // const dialogClose = getByText("Close");
-
-      // fireEvent.keyPress(dialogContent, { key: "Escape", code: "27" });
-      // fireEvent.click(dialogClose);
 
       fireEvent.keyDown(dialogContent, { key: "Escape", code: "27" });
 
