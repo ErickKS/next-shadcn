@@ -32,6 +32,10 @@ export const navConfig: NavConfig = {
       href: "/component/select",
     },
     {
+      title: "Switch",
+      href: "/component/switch",
+    },
+    {
       title: "Toast",
       href: "/component/toast",
     },
