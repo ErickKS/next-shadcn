@@ -1,7 +1,7 @@
-import { Box } from "@/components/layout/box";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import clsx from "clsx";
 import Link from "next/link";
+import clsx from "clsx";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { Box } from "@/components/layout/box";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
 
       <Link
         href={"https://github.com/ErickKS/next-shadcn"}
-        target="_black"
+        target="_blank"
         className={clsx(
           "flex justify-center items-center w-fit gap-2 mt-4 mx-auto py-2 px-4 border rounded-[0.5rem]",
           "text-sm font-medium",
